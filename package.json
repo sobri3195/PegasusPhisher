@@ -1,0 +1,47 @@
+{
+	"name": "jsphisher",
+	"version": "1.3.1",
+	"description": "Easy phishing tool",
+	"repository": "gamerboytr/JSPhisher",
+	"main": "src/app.js",
+	"scripts": {
+		"start": "cd src && node app.js",
+		"lint": "eslint src/**/*.js",
+		"lint:fix": "eslint src/**/*.js --fix"
+	},
+	"keywords": [
+		"phishing",
+		"gamerboytr",
+		"javascriptphising",
+		"jsphisher"
+	],
+	"author": {
+		"email": "offical.gamerboytr@yandex.com",
+		"name": "GamerboyTR",
+		"url": "https://www.gamermunity.ml"
+	},
+	"engines": {
+		"node": ">=12"
+	},
+	"license": "GPL-3.0",
+	"dependencies": {
+		"adm-zip": "^0.5.9",
+		"axios": "^0.26.1",
+		"body-parser": "^1.19.2",
+		"chalk": "4",
+		"cli-progress": "^3.10.0",
+		"express": "^4.17.3",
+		"geoip-lite": "^1.4.4",
+		"path": "^0.12.7",
+		"readline-sync": "^1.4.10",
+		"request": "^2.88.2",
+		"ua-parser-js": "^1.0.2"
+	},
+	"devDependencies": {
+		"eslint": "^7.32.0",
+		"eslint-config-standard": "^16.0.3",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.2.0"
+	}
+}
